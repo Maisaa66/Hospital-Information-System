@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V4</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/login.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+
+</head>
+<body>
+  
+    <div class="container">
+        <form class="signUp" method="POST" action="{{url_for('Register')}}">
+          <h3>Create Your Account</h3>
+          <p>Sign Up using</p>
+          <button class="fb" type="button">
+            G
+          </button>
+          
+          <input class="w100" type="Text" name="patientFname" placeholder="First name" reqired autocomplete='off' />
+          <input class="w100" type="Text" name="patientLname" placeholder="Last name" reqired autocomplete='off' />
+          <input class="w100" type="number" name="PID" placeholder="ID" reqired autocomplete='off' />
+          <input type="password" name="patientpassword" placeholder="Password" autocomplete='off' reqired />
+
+          <button class="form-btn sx log-in" type="button">Log In</button>
+          <button class="form-btn dx" type="submit">Sign Up</button>
+        </form>
+
+        <form class="signIn" method="POST" action="{{url_for('login')}}">
+          <h3>Welcome<br>Back !</h3> 
+          <p><span>We hope you are okay</span></p>
+          <input type="ID" name="PID" placeholder="ID" autocomplete='off' reqired />
+          <input type="password" name="patientpassword" placeholder="password" reqired autocomplete='off' />
+ 
+          <button class="form-btn sx back" type="button">Back</button>
+          <button class="form-btn dx" type="submit">Log In</button>
+        </form>
+        
+      </div>
+
+<script src="../static/jquery-2.2.4.min.js"></script>
+<script src="{{ url_for('static', filename='jquery-2.2.4.min.js') }}"></script>
+<script type="text/javascript">
+
+  $(".log-in").click(function(){
+  $(".signIn").addClass("active-dx");
+  $(".signUp").addClass("inactive-sx");
+  $(".signUp").removeClass("active-sx");
+  $(".signIn").removeClass("inactive-dx");
+});
+
+$(".back").click(function(){
+  $(".signUp").addClass("active-sx");
+  $(".signIn").addClass("inactive-dx");
+  $(".signIn").removeClass("active-dx");
+  $(".signUp").removeClass("inactive-sx");
+});
+
+</script>
+ 
+</body>
+</html>
+
+
+

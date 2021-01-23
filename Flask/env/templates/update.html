@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block head %}
+      <h1>This is view Patient tap</h1>
+      <table>
+         <tr>
+            <th>Patient Name</th>
+            <th>Age</th>
+            <th>ID</th>
+            <th>Doctor ID</th>
+         </tr>
+         {% for x in Data %}
+         <tr>
+            <td>{{x.0}}</td>
+            <td>{{x.1}}</td>
+            <td>{{x.2}}</td>
+            <td>{{x.3}}</td>
+         </tr>
+         
+      {% endfor %}
+
+      </table>
+      <a href="{{url_for('Doctor')}}">Back</a>
+
+ {% endblock %}

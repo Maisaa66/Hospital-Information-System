@@ -1,0 +1,452 @@
+
+
+
+
+.nav_container {
+width: 1170px;
+margin: auto;
+
+}
+
+
+
+.navbar {
+
+text-align: center;
+    
+
+}
+ 
+
+.intropage{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.intropage .carousel-item img {
+
+   -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover;
+    background-size: cover;
+  
+   
+}
+
+.collapse{
+    padding-right: 20px;
+}
+
+
+.nav-container ul li {
+float: left;
+padding: 10px;
+color:white;
+text-shadow: 10px 10px 20px rgba(163, 149, 149, 0.664);
+display: block;
+padding: 8px;
+
+}
+.nav-container ul li:not(.dropdown-menu):hover{
+    visibility: visible;
+    background: rgb(229, 217, 233) ;
+    opacity: 1;
+    border-radius: 20%;
+}
+
+.carousel-caption h5{
+    color: blanchedalmond;
+}
+
+
+
+.Navbar h1 {
+    float: left;
+    text-shadow: 10px 10px 20px white;
+}
+
+.nav-link {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 21px;
+    background: -webkit-linear-gradient(rgb(136, 91, 167), rgb(236, 88, 212));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.navbar-brand  span {
+    
+    font-family: "Sofia", sans-serif;
+  font-size: 35px;
+  background: -webkit-linear-gradient(rgb(136, 91, 167), rgb(236, 88, 212));
+  text-shadow: 10px 10px 20px blanchedalmond;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height:600px;
+}
+
+
+/* Clinics css code*/
+
+.clinics-container{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.our-departments {
+    padding-top: 50px;
+    padding: 100px 0;
+    background: url(../home-styling/imgs/56.jpg) repeat-y;
+    background-size: 100% 100%;
+    
+
+
+}
+
+
+
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+    
+}
+
+
+.our-departments-cont {
+    margin-bottom: 64px;
+}
+
+.our-departments-wrap {
+    padding: 60px 80px 80px;
+    background: -moz-linear-gradient(180deg,rgba(50,200,250,1) 0%,rgba(88,125,228,1) 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(50,200,250,1)),color-stop(100%,rgba(188,125,228,1)));
+    background: -webkit-linear-gradient(180deg,rgba(50,200,250,1) 0%,rgba(88,125,228,1) 100%);
+    background: -o-linear-gradient(180deg,rgba(50,200,250,1) 0%,rgba(88,125,228,1) 100%);
+    background: -ms-linear-gradient(180deg,rgba(50,200,250,1) 0%,rgba(88,125,228,1) 100%);
+    background: linear-gradient(270deg,rgba(50,200,250,1) 0%,rgba(88,125,228,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18a3eb',endColorstr='#18a3eb',GradientType=1 );
+    box-shadow: 0 28px 28px 0 rgba(0, 0, 0, 0.2);
+}
+
+.our-departments-wrap h2 {
+    padding-top: 15px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.our-departments-cont .entry-header {
+    min-height: 48px;
+}
+
+.our-departments-cont .entry-content {
+    margin-top: 16px;
+}
+
+.our-departments-cont .entry-header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+    position:  center;
+}
+
+/* css of appoitmaint part starts here*/
+
+.contact-container{
+
+margin: auto;
+width: 100%;
+
+
+}
+.homepage-boxes {
+    padding: 110px 0;
+}
+
+.opening-hours {
+    border-color:rgb(236, 88, 212);
+    
+}
+.opening-hours, .emergency-box, .appointment-box, .contact-info {
+    position: relative;
+    padding: 32px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 173, 241);
+}
+
+.opening-hours h2, .emergency-box h2, .appointment-box h2, .contact-info h2 {
+    position: absolute;
+    top: -24px;
+    left: -2px;
+    height: 48px;
+    padding-right: 16px;
+    background: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.opening-hours ul {
+    list-style: none;
+}
+.opening-hours ul li span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.opening-hours ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.button.gradient-bg {
+    border-color: transparent;
+    background:linear-gradient(to left,rgb(165, 10, 196),rgb(231, 176, 218), rgb(88, 231, 236));
+    color: #fff;
+}
+
+.button.gradient-bg:hover{
+    background:linear-gradient(to right,rgb(165, 10, 196),rgb(226, 173, 213), rgb(88, 231, 236));
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background-color: rgba(228, 184, 255, 0.945);
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.popup .close-btn{
+    cursor: pointer;
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   width:30px;
+   height: 30px;
+   background: #fff;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 30px;
+   text-align: center;
+   border-radius: 50%;
+}
+
+.popup.active .overlay{
+    display: block;
+
+}
+
+.popup.active .content{
+transition: all 300ms ease-in-out;
+transform: translate(-50%, -50%) scale(-1);
+}
+
+
+
+.button {
+    padding: 12px 50px 10px;
+    margin-right: 32px;
+    border: 0;
+    border-bottom: 3px solid #18a3eb;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    color: #404040;
+    outline: none;
+    background: #f0f4f8;
+    text-decoration: none!important;
+}
+.call-btn {
+    min-width: 210px;
+    padding: 8px 12px 6px!important;
+    margin-left: 24px;
+    margin-right: 0!important;
+}
+
+.appointment-box form {
+    margin-top: 24px;
+}
+
+.appointment-box form select, .appointment-box form input[type=text], .appointment-box form input[type=number] {
+    display: block;
+    width: calc(50% - 5px);
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: #828282;
+    background: #f0f4f8;
+    outline: none;
+}
+
+.appointment-box form input[type=submit] {
+    margin-top: 16px;
+}
+
+.form-group {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.form-group textarea {
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    border: solid #ccc 1px;
+    padding: 8px 15px;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 12px 0 0;
+    box-shadow: none;
+    color: #333;
+    height: 90px;
+}
+
+
+.h-100 {
+    height: 50%!important;
+}
+
+.contact-info ul {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    border-width: 2px;
+    border-style: solid;
+  }
+  
+  .alert-error {
+    border-color: darkred;
+    background-color: red;
+    color: white;
+  }
+  
+  .alert-info {
+    border-color: orange;
+    background-color: yellow;
+    color: black;
+  }
+
+  /* complint form*/
+  .contact-form{
+      padding-bottom: 50px;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 24px;
+    background: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border: 0;
+    background: #f0f4f8;
+    outline: none;
+    font-size: 12px;
+    line-height: 1;
+    font-style: italic;
+    color: #828282;
+}
+
+/*rights*/
+.copyright_part {
+    background-color: #0d1820;
+    padding: 26px 0px;
+}
+
+.copyright_part p{
+    font-family:"Sofia", sans-serif ;
+    color: white;
+}
+
+ .s-icon i {
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+   
+}
